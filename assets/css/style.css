@@ -1,0 +1,155 @@
+body,html{
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.6;
+    overflow-x: hidden;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+/* Logo and Nav */
+
+header{
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    padding: 1.5em 0;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0;
+}
+
+header img {
+    float: left;
+    width: 100px;
+    margin-left: -12px;
+    background: #FFFFFF;
+    width: 35px;
+    height: 36.23px;
+
+}
+.menu-left{
+    float: right;
+    position: absolute;
+}
+
+.menu-left li{
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    display: inline-block;
+    padding: 20px;
+}
+
+.menu-left li a{
+    color: #4F5665;
+    transition: ease-in 0.2s;
+
+}
+
+.menu-left li a:hover{
+    color: #ec4357;
+}
+
+ul.menu-right{
+    float: right;
+}
+
+.menu-right li.menu-cta{
+    position: absolute;
+    width: 150px;
+    height: 45px;
+    left: 1140px;
+    top: 45.62px;
+    display: table-cell;
+    vertical-align: middle;
+    transition: 0.3s;
+    text-align: center;
+    border: 1px solid #F53855;
+    box-sizing: border-box;
+    padding: 0 auto;
+    border-radius: 50px;
+    background: white;
+}
+
+.menu-right li.menu-cta a{
+    position: relative;
+    font-weight: 500;
+    font-style: normal;
+    color: #F53855;
+}
+
+/* Intro Page */
+
+#intro{
+    position: absolute;
+    overflow: hidden;
+    min-height: 600px;
+    padding-top: 5em;
+    padding-left: 6em;
+}
+
+.intro-left{
+    display: inline-block;
+    width: 100%;
+    max-width: 400px;
+    padding-top: 9em;
+}
+
+.intro-left h1{
+    font-weight: 500;
+    font-size: 50px;
+    color: #0B132A;
+    line-height: 70px;
+    position: relative;
+    margin-bottom: 1em;
+    width: 555px;
+}
+
+.intro-left p{
+    width: 555px;
+    left: 150px;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 20px;
+
+}
+
+.intro-left a.intro-cta{
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    max-width: 180px;
+    margin-top: 2em;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 10px;
+    background-color: #F53838;
+    padding: 1em;
+}
+
+.intro-right{
+    position: relative;
+    display: inline;
+    margin-left: 6em;
+}
+
+
+.intro-right img{
+    max-width: 600px;
+    margin-left: auto;
+}
